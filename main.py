@@ -14,8 +14,10 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 
-
-@app.route("/", methods=["GET", "POST"])
+@app.route("/")
+def s():
+    return "ff"
+@app.route("/hh", methods=["GET", "POST"])
 def wtf():
      if request.method=="POST":
          name=request.form.get("name")
