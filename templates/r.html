@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <img src="../static/logo.png"style="width:150px;" alt="">
+
+</head>
+<body>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+
+<form action="{{ url_for('wtf') }}" method="post">
+				<input class="in" type="text" name="name" placeholder="Name" required="required" />
+		<input class="in" type="text" name="class" placeholder="class" required="required" />
+		<input class="in" type="text" name="teacher" placeholder="class" required="required" />
+
+<h1>Academic Level:</h1>
+
+
+  <input type="checkbox" id="vehicle1" name="v" value="his/her work is often messy and incomplete. ">
+  <label for="vehicle1"> his/her work is often messy and incomplete.</label><br>
+  <input type="checkbox" id="vehicle2" name="v" value="is very engaged during whole group instruction, but struggles to work independently ">
+  <label for="vehicle2"> is very engaged during whole group instruction, but struggles to work independently </label><br>
+<input type="checkbox"  name="v" value="has a difficult time understanding how to solve problems.">
+  <label for="vehicle2"> has a difficult time understanding how to solve problems. </label><br>
+    <input type="checkbox"  name="v" value="needs to slow down and go back and check his/her work to make sure that all answers are correct.">
+  <label for="vehicle2"> needs to slow down and go back and check his/her work to make sure that all answers are correct </label><br>
+      <input type="checkbox"  name="v" value="has a difficult time remembering numbers and how to count">
+  <label for="vehicle2"> has a difficult time remembering numbers and how to count </label><br>
+       <input type="checkbox"  name="v" value="is not good at reading.">
+  <label for="vehicle2"> is not good at reading. </label><br>
+       <input type="checkbox"  name="v" value="could benefit from working on his/her handwriting. Slowing down and taking more time would help with this.">
+  <label for="vehicle2"> could benefit from working on his/her handwriting. Slowing down and taking more time would help with this. </label><br>
+        <input type="checkbox"  name="v" value="is keeping up with all his/her classmates and easily passing all assessment tasks he/she has been assigned.">
+  <label for="vehicle2"> is keeping up with all his/her classmates and easily passing all assessment tasks he/she has been assigned. </label><br>
+
+        <input type="checkbox"  name="v" value="is an ambitious student, always eager to learn new vocabulary.">
+  <label for="vehicle2"> is an ambitious student, always eager to learn new vocabulary</label><br>
+    <input type="checkbox"  name="v" value="has an awesome ability in retelling stories.">
+  <label for="vehicle2">has an awesome ability in retelling stories.</label><br>
+       <input type="checkbox"  name="v" value="thinks outside the box and shows eagerness to work beyond class hours.">
+  <label for="vehicle2">thinks outside the box and shows eagerness to work beyond class hours.</label><br>
+   <input type="checkbox"  name="v" value="connects the concepts taught in class to practical applications.">
+  <label for="vehicle2">connects the concepts taught in class to practical applications.</label><br>
+    <input type="checkbox"  name="v" value="is eager to participate in sessions">
+  <label for="vehicle2">is eager to participate in sessions</label><br>
+
+
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+
+  <input type="checkbox" id="vehicle3" name="d1" value="is having a difficult time remembering ">
+  <label for="vehicle3"> is having a difficult time remembering</label><input class="in" type="text" name="d2" placeholder="subject"  /> <br>
+     <input type="checkbox"  name="d3" value="is struggling with ">
+  <label for="vehicle2">is struggling with </label> <input class="in" type="text" name="d4" placeholder="subject"  /> <br>
+      <input type="checkbox"  name="d5" value="He/she does not seem to enjoy it and does not want to do it.">
+  <label for="vehicle2">He/she does not seem to enjoy it and does not want to do it.</label><br>
+     <input type="checkbox"  name="d6" value="He/she is having difficulty concentrating during ">
+  <label for="vehicle2">He/she is having difficulty concentrating during.</label> <input class="in" type="text" name="d7" placeholder="subject"  /> <br>
+    <input type="checkbox"  name="d8" value="lessons and is not learning the material that is being taught because of that">
+  <label for="vehicle2">lessons and is not learning the material that is being taught because of that</label><br>
+    <input type="checkbox" id="vehicle3" name="d9" value="has difficulties understanding">
+  <label for="vehicle3"> has difficulties understanding</label><input class="in" type="text" name="d10" placeholder="subject"  /> <br>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<h1>Behavior and Abilities:bad things  </h1>
+ <input type="checkbox"  name="ve" value="does not actively participate in small group activities. Active participation would be beneficial.">
+  <label for="vehicle2">does not actively participate in small group activities. Active participation would be beneficial.</label><br>
+     <input type="checkbox"  name="ve" value="isn’t respectful and courteous to his/her classmates.">
+  <label for="vehicle2">isn’t respectful and courteous to his/her classmates.</label><br>
+     <input type="checkbox"  name="ve" value="isn’t listening to directions">
+  <label for="vehicle2">isn’t listening to directions</label><br>
+     <input type="checkbox"  name="ve" value="is not demonstrating responsibility and needs to be consistently reminded of how to perform daily classroom tasks.">
+  <label for="vehicle2">is not demonstrating responsibility and needs to be consistently reminded of how to perform daily classroom tasks.</label><br>
+     <input type="checkbox"  name="ve" value="works well alone, but needs to learn how to work better cooperatively with peers">
+  <label for="vehicle2">works well alone, but needs to learn how to work better cooperatively with peers</label><br>
+     <input type="checkbox"  name="ve" value="does not have a positive attitude about school and the work that needs to be completed">
+  <label for="vehicle2">does not have a positive attitude about school and the work that needs to be completed</label><br>
+     <input type="checkbox"  name="ve" value="struggles with completing his/her work in a timely manner.">
+  <label for="vehicle2">struggles with completing his/her work in a timely manner.</label><br>
+     <input type="checkbox"  name="ve" value="is very talkative during sessions, that’s why all his/her classmates are avoiding sitting next to him">
+  <label for="vehicle2">is very talkative during sessions, that’s why all his/her classmates are avoiding sitting next to him</label><br>
+     <input type="checkbox"  name="ve" value="keeps hitting and pushing his/her friends">
+  <label for="vehicle2">keeps hitting and pushing his/her friends</label><br>
+     <input type="checkbox"  name="ve" value="doesn’t sit in his place.">
+  <label for="vehicle2">doesn’t sit in his place.</label><br>
+     <input type="checkbox"  name="ve" value="doesn’t respond to instructions.">
+  <label for="vehicle2">doesn’t respond to instructions.</label><br>
+     <input type="checkbox"  name="ve" value="doesn’t know how to express himself">
+  <label for="vehicle2">doesn’t know how to express himself</label><br>
+     <input type="checkbox"  name="ve" value="gives up easily when something is difficult and needs extensive encouragement to attempt the task">
+  <label for="vehicle2">gives up easily when something is difficult and needs extensive encouragement to attempt the task</label><br>
+     <input type="checkbox"  name="ve" value="gets along with his/her classmates well, but is very disruptive during full group instruction.">
+  <label for="vehicle2">gets along with his/her classmates well, but is very disruptive during full group instruction.</label><br>
+
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <h1>Behavior and Abilities:good things  </h1>
+ <input type="checkbox"  name="ve" value="co-operates consistently with the teacher and other students.">
+  <label for="vehicle2">co-operates consistently with the teacher and other students.</label><br>
+     <input type="checkbox"  name="ve" value="transitions easily between classroom activities without distraction.">
+  <label for="vehicle2">transitions easily between classroom activities without distraction.</label><br>
+     <input type="checkbox"  name="ve" value="is courteous and shows good manners in the classroom">
+  <label for="vehicle2">is courteous and shows good manners in the classroom</label><br>
+     <input type="checkbox"  name="ve" value="follows classroom rules">
+  <label for="vehicle2">follows classroom rules</label><br>
+     <input type="checkbox"  name="ve" value="conducts themselves with maturity.">
+  <label for="vehicle2">conducts themselves with maturity.</label><br>
+     <input type="checkbox"  name="ve" value="responds appropriately when corrected.">
+  <label for="vehicle2">responds appropriately when corrected.</label><br>
+     <input type="checkbox"  name="ve" value="remains focused on the activity at hand.">
+  <label for="vehicle2">remains focused on the activity at hand.</label><br>
+     <input type="checkbox"  name="ve" value="resists the urge to be distracted by other students.">
+  <label for="vehicle2">resists the urge to be distracted by other students.</label><br>
+     <input type="checkbox"  name="ve" value="is kind and helpful to everyone in the classroom.">
+  <label for="vehicle2">is kind and helpful to everyone in the classroom.</label><br>
+     <input type="checkbox"  name="ve" value="sets an example of excellence in behavior and cooperation.">
+  <label for="vehicle2">sets an example of excellence in behavior and cooperation.</label><br>
+     <input type="checkbox"  name="ve" value="has a well-developed sense of humor">
+  <label for="vehicle2">has a well-developed sense of humor</label><br>
+     <input type="checkbox"  name="ve" value="holds many varied interests.">
+  <label for="vehicle2">holds many varied interests.</label><br>
+     <input type="checkbox"  name="ve" value="listens to the comments and ideas of others without interrupting">
+  <label for="vehicle2">listens to the comments and ideas of others without interrupting</label><br>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <h1>Points of strength: </h1>
+      <input type="checkbox"  name="point" value="makes friends quickly in the classroom">
+  <label for="vehicle2">makes friends quickly in the classroom</label><br>
+      <input type="checkbox"  name="point" value="is well-liked by classmates.">
+  <label for="vehicle2">is well-liked by classmates.</label><br>
+      <input type="checkbox"  name="point" value="handles disagreements with peers appropriately.">
+  <label for="vehicle2">handles disagreements with peers appropriately.</label><br>
+      <input type="checkbox"  name="point" value="is a good student who appears to be a deep thinker">
+  <label for="vehicle2">is a good student who appears to be a deep thinker</label><br>
+      <input type="checkbox"  name="point" value="has the ability to accept constructive criticism for improvement.">
+  <label for="vehicle2">has the ability to accept constructive criticism for improvement.</label><br>
+      <input type="checkbox"  name="point" value="has critical thinking skills">
+  <label for="vehicle2">has critical thinking skills</label><br>
+      <input type="checkbox"  name="point" value="is able to socialize with others.">
+  <label for="vehicle2">is able to socialize with others.</label><br>
+      <input type="checkbox"  name="point" value="is enthusiastic about participating.">
+  <label for="vehicle2">is enthusiastic about participating.</label><br>
+  <input type="checkbox"  name="point" value="can be very helpful and dependable in the classroom.">
+  <label for="vehicle2">can be very helpful and dependable in the classroom.</label><br>
+      <input type="checkbox"  name="point" value="a highly motivated student who always puts in his best effort">
+  <label for="vehicle2">a highly motivated student who always puts in his best effort</label><br>
+      <input type="checkbox"  name="point" value="has good potential to achieve better results with increased effort.">
+  <label for="vehicle2">has good potential to achieve better results with increased effort.</label><br>
+      <input type="checkbox"  name="point" value="is so strong, He can start practicing some martial arts">
+  <label for="vehicle2">is so strong, He can start practicing some martial arts</label><br>
+      <input type="checkbox"  name="point" value="is so smart, but he needs to eat healthy food to stay focused during class.">
+  <label for="vehicle2">is so smart, but he needs to eat healthy food to stay focused during class.</label><br>
+      <input type="checkbox"  name="point" value="likes cooking, and I think he/she should start cooking some simple recipes and you can help him.">
+  <label for="vehicle2">likes cooking, and I think he/she should start cooking some simple recipes and you can help him.</label><br>
+      <input type="checkbox"  name="point" value="likes drawing and coloring, and I think he/she should start drawing some pictures with a little detail">
+  <label for="vehicle2">likes drawing and coloring, and I think he/she should start drawing some pictures with a little detail</label><br>
+      <input type="checkbox"  name="point" value="likes soccer, and I think he/she should start to join soccer academy.">
+  <label for="vehicle2">likes soccer, and I think he/she should start to join soccer academy.</label><br>
+      <input type="checkbox"  name="point" value="likes reading comics that’s why he/she has a very good imagination>
+  <label for="vehicle2">likes reading comics that’s why he/she has a very good imagination</label><br>
+      <input type="checkbox"  name="point" value="is able to socialize with others.">
+  <label for="vehicle2">is able to socialize with others.</label><br>
+      <input type="checkbox"  name="point" value=".can be very helpful and dependable in the classroom.">
+  <label for="vehicle2">.can be very helpful and dependable in the classroom.</label><br>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <h1>Recommendations  (Home)</h1>
+       <input type="checkbox"  name="va" value="is distracted easily by peers or changes in the environment. That’s why I recommend Separation between him/her and his/her brothers while studying.">
+  <label for="vehicle2">is distracted easily by peers or changes in the environment. That’s why I recommend Separation between him/her and his/her brothers while studying.</label><br>
+       <input type="checkbox"  name="va" value="does not understand the personal space of others and you can help him by reading about personal spaces and personal bubbles.">
+  <label for="vehicle2">does not understand the personal space of others and you can help him by reading about personal spaces and personal bubbles.</label><br>
+       <input type="checkbox"  name="va" value="needs to improve respect for others and I believe you can talk to him about that and what the consequences he’s going to receive are">
+  <label for="vehicle2">needs to improve respect for others and I believe you can talk to him about that and what the consequences he’s going to receive are</label><br>
+       <input type="checkbox"  name="va" value="should do sports that will help him to be energetic">
+  <label for="vehicle2">should do sports that will help him to be energetic</label><br>
+       <input type="checkbox"  name="va" value="needs to improve his skills more and more. Moreover, I suggest that he can do outdoor activities.">
+  <label for="vehicle2">needs to improve his skills more and more. Moreover, I suggest that he can do outdoor activities.</label><br>
+       <input type="checkbox"  name="va" value="needs more encouragement from his parents.">
+  <label for="vehicle2">needs more encouragement from his parents.</label><br>
+       <input type="checkbox"  name="va" value="I think you should reduce his screen time at home.">
+  <label for="vehicle2">I think you should reduce his screen time at home.</label><br>
+       <input type="checkbox"  name="va" value="needs to stop watching action and horror movies for a while">
+  <label for="vehicle2">needs to stop watching action and horror movies for a while</label><br>
+       <input type="checkbox"  name="va" value="I think choosing books that he/she likes and reading them with him/her at home will help build a love of reading">
+  <label for="vehicle2">I think choosing books that he/she likes and reading them with him/her at home will help build a love of reading</label><br>
+       <input type="checkbox"  name="va" value="needs practicing English speaking at home would be very helpful">
+  <label for="vehicle2">needs practicing English speaking at home would be very helpful</label><br>
+       <input type="checkbox"  name="va" value="needs to learn how to work better cooperatively with peers.">
+  <label for="vehicle2">needs to learn how to work better cooperatively with peers.</label><br>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <h1>Recommendations  (school)</h1>
+         <input type="checkbox"  name="vas" value="needs to be more controllable. That’s why I’m going to work on that next quarter.">
+  <label for="vehicle2">needs to be more controllable. That’s why I’m going to work on that next quarter.</label><br>
+         <input type="checkbox"  name="vas" value="Doing scientific competitions will be enough for him to be satisfied.">
+  <label for="vehicle2">Doing scientific competitions will be enough for him to be satisfied.</label><br>
+         <input type="checkbox"  name="vas" value="needs to work democratically with others in groups">
+  <label for="vehicle2">needs to work democratically with others in groups</label><br>
+         <input type="checkbox"  name="vas" value="Teacher talks with him /her.">
+  <label for="vehicle2">Teacher talks with him /her.</label><br>
+         <input type="checkbox"  name="vas" value="The teacher keeps him/her busy with work tasks, helping her and his friends">
+  <label for="vehicle2">The teacher keeps him/her busy with work tasks, helping her and his friends</label><br>
+         <input type="checkbox"  name="vas" value="visits psychologist.">
+  <label for="vehicle2">visits psychologist.</label><br>
+         <input type="checkbox"  name="vas" value="participates in group activity in the classroom.">
+  <label for="vehicle2">participates in group activity in the classroom.</label><br>
+         <input type="checkbox"  name="vas" value="participates in Art or soccer activities">
+  <label for="vehicle2">participates in Art or soccer activities</label><br>
+         <input type="checkbox"  name="vas" value="participates in Quran course to modify or improve his/her pronunciation.">
+  <label for="vehicle2">participates in Quran course to modify or improve his/her pronunciation.</label><br>
+     <input type="checkbox"  name="vas" value="Give him/her extra sessions.">
+  <label for="vehicle2">Give him/her extra sessions.</label><br>
+
+  <input type="submit" value="Submit">
+
+				<button type="submit" class="btn btn-primary btn-block btn-large">Sign me up.</button>
+
+			</form>
+</body>
+</html>
